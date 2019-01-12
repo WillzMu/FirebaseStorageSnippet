@@ -3,7 +3,6 @@ import firebase from 'firebase/app';
 require('firebase/auth');
 require('firebase/database');
 require('firebase/storage');
-
 var config = {
   apiKey: process.env.REACT_APP_API_KEY,
   authDomain: process.env.REACT_APP_AUTHDOMAIN,
